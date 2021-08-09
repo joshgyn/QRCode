@@ -1,0 +1,33 @@
+{
+    "name": "QR Code Bot",
+    "description": "A Bot to Generate & Scan QR Codes.",
+    "logo":"https://telegra.ph/file/0381a33659644d5f43b50.jpg",
+    "repository": "https://github.com/DeccanBotz/QRCode/",
+    "keywords": ["Deccan_Botz", "qrcode-scanner", "qrcode-generator","telegram bot"],
+    "env": {
+       "API_HASH": {
+        "description": "Your API_HASH from https://my.telegram.org/apps",
+        "value": ""
+      },
+      "API_ID": {
+        "description": "Your API_ID from https://my.telegram.org/apps ",
+        "value": ""
+      },
+      "TOKEN": {
+        "description": "Your Bot token from @Botfather ",
+        "value": ""
+      },
+      "OWNER": {
+        "description": "Your username without'@' ",
+        "value": ""
+      }
+     },
+     "buildpacks": [
+      {
+        "url": "heroku/python"
+      },
+      {
+        "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+      }
+    ]
+  }

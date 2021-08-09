@@ -1,0 +1,7 @@
+Pyrogram
+telegraph
+TgCrypto
+pyqrcode 
+pypng
+pyzbar
+Pillow

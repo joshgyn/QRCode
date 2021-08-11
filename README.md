@@ -44,13 +44,13 @@ help - To Know How to use me
 <p align="middle">
 <img src="https://telegra.ph/file/02196031aecc70af5cec4.jpg" width="200" height="250"><br>
 <a href="https://telegram.dog/JLBots"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
-<a href="https://github.com/JeLuxe"><img src="https://badgen.net/badge/Follow%20on%20/GitHub/80FF00?icon=github&labelColor=black"></a>
+<a href="https://github.com/joshgyn"><img src="https://badgen.net/badge/Follow%20on%20/GitHub/80FF00?icon=github&labelColor=black"></a>
 
 
 ### Follow us on 
 * Instagram : [Coshgyn](https://www.instagram.com/Coshgyn/)
 * Telegram   : [Je Luxe](https://t.me/mrjeluxe/)
-* Github    : [Je Luxe](https://github.com/JeLuxe/)
+* Github    : [Je Luxe](https://github.com/joshgyn/)
 
 ### Credits 
 * [Je Luxe Bots](https://t.me/jlbots)

@@ -3,13 +3,13 @@ A Telegram Bot to Generate & Scan QR Codes
 <p align="middle">
  <img src = "https://telegra.ph/file/0381a33659644d5f43b50.jpg" width="200" height="200">
 </p>
-  <b><p align="center">Made With ❤ By @Deccan_Botz</p></b>
+  <b><p align="center">Made With ❤ By @JLBots</p></b>
 
 
 ```
 Please fork this repository & Don't import code
 Made with Python3
-(C) @Deccan Botz 
+(C) @JLBots
 Copyright permission under GNU General Public License v3.0
 License -> https://github.com/DeccanBotz/QRCode/blob/main/LICENSE
 ```
@@ -30,7 +30,7 @@ License -> https://github.com/DeccanBotz/QRCode/blob/main/LICENSE
 * `OWNER` Your Username without '@'
 
 ### Deploy to Heroku
-* [Tutorial](https://youtube.com)
+
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DeccanBotz/QRCode)
 

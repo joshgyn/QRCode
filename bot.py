@@ -30,9 +30,8 @@ Salam {},
 Mən sadə 1 QR code botuyam.
 Mən QR kodu yarada və skan edə bilirəm
 """
-ENCODE_TEXT = """   
+HELP_TEXT = """   
  İndi mənə Mətn|Link göndər , Mən ondan QR kod hazırlayəb sənə göndərəcəm.
-DECODE_TEXT = """
  İndi mənə QR kod göndər, Mən onu skan edəcək & içindəki informasiyanı sənə göndərəcəm.
 """
 

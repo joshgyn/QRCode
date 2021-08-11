@@ -16,7 +16,7 @@ API_HASH = os.environ.get("API_HASH", "")
 
 OWNER = os.environ.get("OWNER", "")
 
-Jeluxe = Client(
+Deccan = Client(
         "QR CODE",
         bot_token=TOKEN,api_hash=API_HASH,
             api_id=API_ID
@@ -58,14 +58,14 @@ ERROR_BUTTON = InlineKeyboardMarkup(
         ]]
     )
 
-@JeLuxe.on_message(filters.private & filters.command(["start"]))
+@Deccan.on_message(filters.private & filters.command(["start"]))
 async def start(bot, update):
     await update.reply_text(
        text=START_TEXT.format(update.from_user.mention),
        disable_web_page_preview=True,
        reply_markup=START_BUTTONS
     )
-@JeLuxe.on_message(filters.private & filters.command(["help"]))
+@Deccan.on_message(filters.private & filters.command(["help"]))
 async def help(bot, update):
     await update.reply_text(
         text=HELP_TEXT.format(update.from_user.mention),
@@ -85,7 +85,7 @@ async def progress(current, total, up_msg, message):
 
 # qr_encode mətnlər/linklər üçün QR kod yaratmaq
 
-@JeLuxe.on_message(filters.text & filters.private)
+@Deccan.on_message(filters.text & filters.private)
 async def qr_encode(client, message):
     qr = await client.send_message(
         chat_id=message.chat.id,
@@ -123,7 +123,7 @@ async def qr_encode(client, message):
 
 # qr_decode QR kodları skan etmək və mesaj vermək üçün
 
-@MrJeLuxe.on_message(filters.photo)
+@Deccan.on_message(filters.photo)
 async def qr_decode(client, message):
     decode_text = await client.send_message(
         chat_id=message.chat.id,
@@ -160,4 +160,4 @@ progress=progress,
     except Exception as error:
         print(error)
 
-JeLuxe.run()
+Deccan.run()

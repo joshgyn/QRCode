@@ -51,7 +51,7 @@ help - To Know How to use me
 </p>
 
 ### Follow us on 
-* Instagram : [deccan_botz](https://www.instagram.com/deccan_botz/)
+* Instagram : [deccan_botz](https://www.instagram.com/Coshgyn/)
 * Twitter   : [DeccanBotz](https://www.twitter.com/DeccanBotz/)
 * Github    : [DeccanBotz](https://github.com/DeccanBotz/)
 * YouTube   : [DC Tutorials](https://www.youtube.com/channel/UCt96T3IQs3sM7ZtthNz-tmA)

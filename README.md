@@ -34,7 +34,7 @@ License -> https://github.com/DeccanBotz/QRCode/blob/main/LICENSE
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DeccanBotz/QRCode)
 
-### Commands
+### Commands 
 ```
 start - Checking Bot Online
 help - To Know How to use me
@@ -43,19 +43,15 @@ help - To Know How to use me
 
 <p align="middle">
 <img src="https://telegra.ph/file/02196031aecc70af5cec4.jpg" width="200" height="250"><br>
-<img src="https://badgen.net/badge/Name/The New World/orange?icon=awesome&labelColor=black"></a>
-<a href="https://telegram.dog/TheDCB"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
-<a href="https://github.com/DeccanBotz"><img src="https://badgen.net/badge/Follow%20on%20/GitHub/80FF00?icon=github&labelColor=black"></a>
-<a href="https://www.youtube.com/channel/UCt96T3IQs3sM7ZtthNz-tmA"><img src="https://img.shields.io/badge/YouTube-Channel-FF3333.svg?logo=youtube&logoColor=FF3333"></a>
-<p align="left">
-</p>
+<a href="https://telegram.dog/JLBots"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
+<a href="https://github.com/JeLuxe"><img src="https://badgen.net/badge/Follow%20on%20/GitHub/80FF00?icon=github&labelColor=black"></a>
+
 
 ### Follow us on 
-* Instagram : [deccan_botz](https://www.instagram.com/Coshgyn/)
-* Twitter   : [DeccanBotz](https://www.twitter.com/DeccanBotz/)
-* Github    : [DeccanBotz](https://github.com/DeccanBotz/)
-* YouTube   : [DC Tutorials](https://www.youtube.com/channel/UCt96T3IQs3sM7ZtthNz-tmA)
+* Instagram : [Coshgyn](https://www.instagram.com/Coshgyn/)
+* Telegram   : [Je Luxe](https://t.me/mrjeluxe/)
+* Github    : [Je Luxe](https://github.com/JeLuxe/)
 
 ### Credits 
-* [Deccan Botz](https://t.me/Deccan_Botz)
+* [Je Luxe Bots](https://t.me/jlbots)
 * Thanks for [AbhijithNT](https://github.com/AbhijithNT) for his wonderful [Repository]( https://github.com/AbhijithNT/QRCode-Telegram-bot)

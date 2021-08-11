@@ -1,9 +1,9 @@
 {
-    "name": "QR Code Bot",
+    "name": "QR test bot",
     "description": "A Bot to Generate & Scan QR Codes.",
-    "logo":"https://telegra.ph/file/0381a33659644d5f43b50.jpg",
-    "repository": "https://github.com/DeccanBotz/QRCode/",
-    "keywords": ["Deccan_Botz", "qrcode-scanner", "qrcode-generator","telegram bot"],
+    "logo":"https://telegra.ph/Logo-08-11",
+    "repository": "https://github.com/joshgyn/JLBots/",
+    "keywords": ["JLBots", "qrcode-scanner", "qrcode-generator","telegram bot"],
     "env": {
        "API_HASH": {
         "description": "Your API_HASH from https://my.telegram.org/apps",

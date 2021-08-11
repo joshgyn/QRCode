@@ -31,9 +31,9 @@ Mən sadə 1 QR code botuyam.
 Mən QR kodu yarada və skan edə bilirəm
 """
 ENCODE_TEXT = """   
-• İndi mənə Mətn|Link göndər , Mən ondan QR kod hazırlayəb sənə göndərəcəm.
+ İndi mənə Mətn|Link göndər , Mən ondan QR kod hazırlayəb sənə göndərəcəm.
 DECODE_TEXT = """
-• İndi mənə QR kod göndər, Mən onu skan edəcək & içindəki informasiyanı sənə göndərəcəm.
+ İndi mənə QR kod göndər, Mən onu skan edəcək & içindəki informasiyanı sənə göndərəcəm.
 """
 
 START_BUTTONS = InlineKeyboardMarkup(

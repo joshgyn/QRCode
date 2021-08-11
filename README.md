@@ -1,7 +1,7 @@
 # QRCode
 A Telegram Bot to Generate & Scan QR Codes
 <p align="middle">
- <img src = "https://www.hizliresim.com/m14imdp" width="200" height="200">
+ <img src = "https://telegra.ph/file/0381a33659644d5f43b50.jpg" width="200" height="200">
 </p>
   <b><p align="center">Made With ❤ By @JLBots</p></b>
 

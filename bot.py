@@ -16,7 +16,7 @@ API_HASH = os.environ.get("API_HASH", "")
 
 OWNER = os.environ.get("OWNER", "")
 
-Deccan = Client(
+Jeluxe = Client(
         "QR CODE",
         bot_token=TOKEN,api_hash=API_HASH,
             api_id=API_ID
@@ -25,48 +25,47 @@ Deccan = Client(
 # Commands for Bot
 
 START_TEXT = """ 
-Hello {},
+Salam {},
  
-I am simple QRcode bot.
-
-I can generate QR code and Scan QR code.
+Mən sadə 1 QR code botuyam.
+Mən QR kodu yarada və skan edə bilirəm
 """
 HELP_TEXT = """   
-Follow these steps..
-• Just send me a Text|Link, I will make a QR Code.
-• Just Send me a QR Code, I will scan & Send information in it.
+Bu addımları izlə
+• İndi mənə Mətn|Link göndər , Mən ondan QR kod hazırlayacam.
+• İndi mənə QR kod göndər, Mən onu skan edəcək & içindəki informasiyanı göndərəcəm.
 """
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Owner 👨‍💻', url=f"https://telegram.me/{OWNER}")
         ],[
-        InlineKeyboardButton('Tutorial 📺', url='https://telegram.me/Deccan_Supportz')
+        InlineKeyboardButton('Yeniliklər ♻️', url='https://telegram.me/JLBots')
         ]]
     )
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Owner 👨‍💻', url=f"https://telegram.me/{OWNER}")
         ],[
-        InlineKeyboardButton('Tutorial 📺', url='https://telegram.me/Deccan_Supportz')
+        InlineKeyboardButton('Yeniliklər ♻️', url='https://telegram.me/JLBots')
         ]]
     )
 ERROR_BUTTON = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Owner 👨‍💻', url=f"https://telegram.me/{OWNER}")
         ],[
-        InlineKeyboardButton('Tutorial 📺', url='https://telegram.me/Deccan_Supportz')
+        InlineKeyboardButton('Yeniliklər ♻️', url='https://telegram.me/JLBots')
         ]]
     )
 
-@Deccan.on_message(filters.private & filters.command(["start"]))
+@JeLuxe.on_message(filters.private & filters.command(["start"]))
 async def start(bot, update):
     await update.reply_text(
        text=START_TEXT.format(update.from_user.mention),
        disable_web_page_preview=True,
        reply_markup=START_BUTTONS
     )
-@Deccan.on_message(filters.private & filters.command(["help"]))
+@JeLuxe.on_message(filters.private & filters.command(["help"]))
 async def help(bot, update):
     await update.reply_text(
         text=HELP_TEXT.format(update.from_user.mention),
@@ -84,13 +83,13 @@ async def progress(current, total, up_msg, message):
     except:
         pass
 
-# qr_encode to create qr codes for text/links
+# qr_encode mətnlər/linklər üçün QR kod yaratmaq
 
-@Deccan.on_message(filters.text & filters.private)
+@JeLuxe.on_message(filters.text & filters.private)
 async def qr_encode(client, message):
     qr = await client.send_message(
         chat_id=message.chat.id,
-        text="Making your QR Code... ✔", # Edit Text Here
+        text=" QR kodunuz hazırlanır... ✔", # Edit Text Here
         reply_to_message_id=message.message_id
     )
     s = str(message.text)
@@ -108,7 +107,7 @@ async def qr_encode(client, message):
             photo=img,
             progress=progress,
             progress_args=(
-                "Trying to Uploading....☑", # Edit Text Here
+                "Yükləməyə cəhd edilir", # Edit Text Here
                 qr
             )
         )
@@ -120,15 +119,15 @@ async def qr_encode(client, message):
     try:
         os.remove(img)
     except Exception as error:
-        print('Something is error')
+        print('Bilinməyən 1 xəta baş verdi')
 
-# qr_decode to scan qrcodes & give message
+# qr_decode QR kodları skan etmək və mesaj vermək üçün
 
-@Deccan.on_message(filters.photo)
+@MrJeLuxe.on_message(filters.photo)
 async def qr_decode(client, message):
     decode_text = await client.send_message(
         chat_id=message.chat.id,
-        text="<b>Processing your request...✔</b>", # Edit Text Here
+        text="<b>Proses işə salınır...✔</b>", # Edit Text Here
         reply_to_message_id=message.message_id,
     )
     dl_location = str(message.from_user.id)
@@ -137,16 +136,16 @@ async def qr_decode(client, message):
     try:
         im_dowload = await message.download(
             file_name=dl_location + '.png',
-            progress=progress,
+progress=progress,
             progress_args=(
-                "Trying to download....☑", # Edit Text Here
+                "Yükləməyə cəhd edilir...☑", # Edit Text Here
                 decode_text
             )
         )
     except Exception as error:
         print(error)
     await decode_text.edit(
-        text="Scanning..." # Edit Text Here
+        text="Skan edilir..." # Edit Text Here
     )
     try:
         qr_text_data = decode(Image.open(im_dowload))
@@ -161,4 +160,4 @@ async def qr_decode(client, message):
     except Exception as error:
         print(error)
 
-Deccan.run()
+JeLuxe.run()
